@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>心情</title>
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Walk Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //for-mobile-apps -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/component.css" rel="stylesheet" type="text/css" />
+	<!-- js -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- //js -->
+
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling -->
+</head>
+
+<body class="cbp-spmenu-push">
+	<!-- banner -->
+	<div class="banner1">
+		<div class="container">
+			<div class="header">
+
+				<div class="header-left1">
+					<h1><a href="index.html">阿勒泰<span>life is about moments</span></a></h1>
+				</div>
+				<!-- #push_sidebar -->
+				<div class="top-nav">
+					<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+						<h3>随记</h3>
+						<ul>
+							<li><a href="index.html"><span class="glyphicon glyphicon-home"
+										aria-hidden="true"></span>旅途</a></li>
+							<li><a href="single.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>心情</a>
+							</li>
+							<li><a href="gallery.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>风景</a>
+							</li>
+
+						</ul>
+					</nav>
+					<div class="main buttonset">
+						<button id="showRightPush"><img src="images/menu.png" alt="" /></button>
+					</div>
+					<script src="js/classie.js"></script>
+					<script>
+						var menuRight = document.getElementById('cbp-spmenu-s2'),
+							showRightPush = document.getElementById('showRightPush'),
+							body = document.body;
+
+						showRightPush.onclick = function () {
+							classie.toggle(this, 'active');
+							classie.toggle(body, 'cbp-spmenu-push-toleft');
+							classie.toggle(menuRight, 'cbp-spmenu-open');
+							disableOther('showRightPush');
+						};
+
+						function disableOther(button) {
+							if (button !== 'showRightPush') {
+								classie.toggle(showRightPush, 'disabled');
+							}
+						}
+					</script>
+					<!-- /script-for-menu -->
+				</div>
+				<!-- /#push_sidebar -->
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- single -->
+	<div class="single">
+		<div class="container">
+			<div class="col-md-12 single-left">
+
+				<h3>我是一个馋秋的人。
+					北疆的秋色，名声在外，
+					夹杂着初冬的雪景，似酒，如诗，
+					藏在信笺里，从北国寄来,
+					只见过一眼，怕是就得惦念一辈子</h3>
+				<div class="single-left1">
+					<h5>新疆的美好，在记忆中更为浓烈,
+						哪怕飞机辗转，哪怕长时间坐车，在到达那一刻还是觉得一切都值得</h5>
+					<div class="single-left1-grids">
+						<div class="col-md-8 single-left1-grid">
+							<p>回来这么久，思绪一直萦绕在北疆往北的世界里。虽然这还是我第一次来新疆
+								，依旧无法自拔。这里最触动我的地方，就在于它足够广袤，它比任何我到过的风景都更加宽阔，
+								似乎可以容纳人类所有的想像，四季可如电影般骤然变换，雪峰可与骄阳熠熠生光，宁静与热情并行不悖，粗粝与细腻共驾齐驱。
+								<br />
+								<span>有一种风景可以过目不忘，有一个地方愿长醉不愿醒。我们一路奔行驰骋，穿行在广阔的地域，
+									身体也好像拉开了久违的厚重的窗帘，阳光洒进了心里，无比舒畅，恍然感到进入了油画中的画面，
+									全身的毛孔都仿佛被打开，与大自然来一场亲密接触：远眺高耸的博格达峰，走过一碧如洗的天山天池，
+									在观鱼台聆听喀纳斯湖关于水怪的久远传说，还有白桦林同潺潺禾木河水交织在一起的交响乐，那是图瓦人部落静静安放灵魂的归宿。</span></p>
+						</div>
+						<div class="col-md-4 single-left1-grid">
+							<img src="images/028.jpg" alt=" " class="img-responsive" />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="single-left2">
+					<h4>念念叨叨地把旅程从第一天开始重述了一遍，像影像机快进一样倒带，
+						两千多公里路历历在目。小到那天的过油拌面是否好吃那天的串儿是不是吃得心生欢喜，都清晰记得。
+						但一些为什么拌嘴吵架的原因似乎都开始模糊了，可能我就是一个从来只想接受好的回忆的人。
+						</h4>
+					<div class="col-md-4 single-left1-grid">
+						<img src="images/029.jpg" alt=" " class="img-responsive" />
+					</div>
+					<div class="col-md-8 single-left1-grid">
+						<p>秋天的喀纳斯和冬天的她，完全是两个模样。秋天的它，无疑是最高光的，也是五彩斑斓的，她的秋天是属于中国版图的。
+							但是她的冬天也是独一无二的纯粹，是不可复制的，是那种纯粹的白，白色的山，白色的树，白色的河水，白色的湖。
+							<br />
+							<span>不得不说，河边上人很多很多，而我们也呆了很久很久，其他游客换了一拨又一拨。不过，我好像可以置身事外，
+								喧嚣的人群就在那喧嚣，我就感觉自己站在那里远眺，灵魂是可以飞起来的，去拥抱深不可测的湖蓝与天空的淡蓝。
+								这里的静与美，能洗去那些本来就不属于我们的浮世面具，我想湖水还可以照见今生今世，千年不变的疆域山魂，也能让你重拾纯粹。</span></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="single-left3">
+					<p>这个世界，所谓的流量会骗你，所谓的数据会骗你，所谓的运作会骗你，所谓的title和标签会骗你，
+						我们都不自觉的成为了管中窥豹的井底之蛙，我们也成为了流量的奴隶。
+						但你读过的每一本书不会骗你，你走过的每一步路不会骗你，你看过的风景不会骗你，
+						你经历的每一次喜怒哀乐不会骗你，你的父母不会骗你。</p>
+					<div class="single-left3-grids">
+						<div class="col-md-6 single-left3-grid">
+							<img src="images/030.jpg" alt=" " class="img-responsive" />
+							<p>草原，河流， 日光 和雪山，都是想见的风景。</p>
+						</div>
+						<div class="col-md-6 single-left3-grid">
+							<img src="images/027.jpg" alt=" " class="img-responsive" />
+							<p>接下来的漫漫长路，慢慢感受脚踩大地的温柔。</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+	</div>
+	<!-- //single -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+
+		</div>
+	</div>
+	<div class="footer-copy">
+		<div class="container">
+		</div>
+	</div>
+	<!-- //footer -->
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>
+
+</html>
